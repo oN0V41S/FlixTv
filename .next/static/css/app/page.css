@@ -491,11 +491,11 @@ video {
 .m-10 {
   margin: 2.5rem;
 }
-.m-auto {
-  margin: auto;
-}
 .m-4 {
   margin: 1rem;
+}
+.m-auto {
+  margin: auto;
 }
 .mt-10 {
   margin-top: 2.5rem;
@@ -512,28 +512,22 @@ video {
 .flex {
   display: flex;
 }
-.h-40 {
-  height: 10rem;
+.h-80 {
+  height: 20rem;
 }
 .h-max {
   height: -moz-max-content;
   height: max-content;
 }
-.h-80 {
-  height: 20rem;
-}
 .min-h-screen {
   min-height: 100vh;
+}
+.w-60 {
+  width: 15rem;
 }
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-.w-20 {
-  width: 5rem;
-}
-.w-60 {
-  width: 15rem;
 }
 .gap-8 {
   gap: 2rem;
@@ -575,12 +569,12 @@ video {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
 }
+.text-transparent {
+  color: transparent;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-transparent {
-  color: transparent;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
@@ -597,4 +591,9 @@ body{
 
 .hover\:animate-pulse:hover {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
