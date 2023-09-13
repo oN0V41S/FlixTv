@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fworkspaces%2FFlixTv%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2Fworkspaces%2FFlixTv%2Fpublic%2FFlixTV-transformed.png&modules=%2Fworkspaces%2FFlixTv%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&modules=%2Fworkspaces%2FFlixTv%2Fpublic%2Fnaruto.png&server=false!":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fworkspaces%2FFlixTv%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2Fworkspaces%2FFlixTv%2Fpublic%2FFlixTV-transformed.png&modules=%2Fworkspaces%2FFlixTv%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&modules=%2Fworkspaces%2FFlixTv%2Fpublic%2Fnaruto.png&server=false! ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(app-pages-browser)/./node_modules/next/dist/client/image-component.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./public/FlixTV-transformed.png */ \"(app-pages-browser)/./public/FlixTV-transformed.png\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(app-pages-browser)/./node_modules/next/dist/client/link.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./public/naruto.png */ \"(app-pages-browser)/./public/naruto.png\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lMkZ3b3Jrc3BhY2VzJTJGRmxpeFR2JTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZpbWFnZS1jb21wb25lbnQuanMmbW9kdWxlcz0lMkZ3b3Jrc3BhY2VzJTJGRmxpeFR2JTJGcHVibGljJTJGRmxpeFRWLXRyYW5zZm9ybWVkLnBuZyZtb2R1bGVzPSUyRndvcmtzcGFjZXMlMkZGbGl4VHYlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmxpbmsuanMmbW9kdWxlcz0lMkZ3b3Jrc3BhY2VzJTJGRmxpeFR2JTJGcHVibGljJTJGbmFydXRvLnBuZyZzZXJ2ZXI9ZmFsc2UhIiwibWFwcGluZ3MiOiJBQUFBLG9PQUF3RztBQUN4Ryx3TEFBcUY7QUFDckYsOE1BQTZGO0FBQzdGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8/ZmUxMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi93b3Jrc3BhY2VzL0ZsaXhUdi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9pbWFnZS1jb21wb25lbnQuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi93b3Jrc3BhY2VzL0ZsaXhUdi9wdWJsaWMvRmxpeFRWLXRyYW5zZm9ybWVkLnBuZ1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL3dvcmtzcGFjZXMvRmxpeFR2L25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2xpbmsuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi93b3Jrc3BhY2VzL0ZsaXhUdi9wdWJsaWMvbmFydXRvLnBuZ1wiKSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fworkspaces%2FFlixTv%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2Fworkspaces%2FFlixTv%2Fpublic%2FFlixTV-transformed.png&modules=%2Fworkspaces%2FFlixTv%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&modules=%2Fworkspaces%2FFlixTv%2Fpublic%2Fnaruto.png&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./public/naruto.png":
+/*!***************************!*\
+  !*** ./public/naruto.png ***!
+  \***************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"src\":\"/_next/static/media/naruto.ae332696.png\",\"height\":1080,\"width\":1080,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnaruto.ae332696.png&w=8&q=70\",\"blurWidth\":8,\"blurHeight\":8});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3B1YmxpYy9uYXJ1dG8ucG5nIiwibWFwcGluZ3MiOiI7QUFBQSwrREFBZSxDQUFDLGtNQUFrTSIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9wdWJsaWMvbmFydXRvLnBuZz80MGE3Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9uYXJ1dG8uYWUzMzI2OTYucG5nXCIsXCJoZWlnaHRcIjoxMDgwLFwid2lkdGhcIjoxMDgwLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRm5hcnV0by5hZTMzMjY5Ni5wbmcmdz04JnE9NzBcIixcImJsdXJXaWR0aFwiOjgsXCJibHVySGVpZ2h0XCI6OH07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./public/naruto.png\n"));
+
+/***/ })
+
+});
