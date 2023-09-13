@@ -17,6 +17,13 @@
   }
 }
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body{
   font-family: 'Roboto Mono', 'monospace';
+  background-color: rgb(15 23 42);
+  min-height: 100vh;
 }
