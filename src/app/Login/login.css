@@ -1,0 +1,15 @@
+body{
+    background-image: url('../../../public/fundo.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+#input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

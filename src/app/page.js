@@ -1,9 +1,9 @@
-import HP from './home/page'
+import Login from "./Login/login";
 
 export default function Home() {
   return (
     <body>
-      <HP/>
+      <Login/>
     </body>
   )
 }

@@ -1,12 +1,18 @@
 import Media from "../components/menu/media";
 
+
 import Naruto from '../../../public/naruto.png'
 import MediaList from "../components/menu/mediaList";
+import Slide from "../components/menu/slide";
 
 export default function Menu(){
     return(
         <body >
             <main className="gap-12 flex flex-col">
+                <div className="w-screen ">
+                    <Slide>
+                    </Slide>
+                </div>
                 <div id="user_choose" className="text-white ml-10 capitalize font-bold text-xl">
                     <div>Continue assistindo</div>
                     <div id="catalogo" className="flex gap-4">
