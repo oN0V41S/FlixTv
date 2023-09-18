@@ -9,7 +9,9 @@ body{
     color: white;
 }
 
+
 #input:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
+    border: 0;
 }

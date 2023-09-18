@@ -4,6 +4,7 @@ import Media from "../components/menu/media";
 import Naruto from '../../../public/naruto.png'
 import MediaList from "../components/menu/mediaList";
 import Slide from "../components/menu/slide";
+import Carousel from "../components/menu/carousel";
 
 export default function Menu(){
     return(
