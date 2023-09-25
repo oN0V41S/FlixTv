@@ -1,16 +1,24 @@
-import React from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
+import React from "react";
+import { Carousel, Image } from "react-bootstrap";  
 
-export default function Carousel(){
-    const [emblaRef] = useEmblaCarousel()
+export default function CarouselMedia(){
+  const images = [
+    {
+      url: "../../../public/naturo.png",
+    },
+    {
+      url: "../../../public/naturo.png",
+    },
+    {
+      url: "../../../public/naturo.png",
+    },
+  ];
 
     return (
-      <div className="embla" ref={emblaRef}>
-        <div className="embla__container">
-          <div className="embla__slide">Slide 1</div>
-          <div className="embla__slide">Slide 2</div>
-          <div className="embla__slide">Slide 3</div>
-        </div>
-      </div>
+      <Carousel>
+      {images.map((image) => (
+        <Image key={image.url} src={image.url} />
+      ))}
+    </Carousel>
     )
 }

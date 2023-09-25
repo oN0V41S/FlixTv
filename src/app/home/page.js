@@ -1,11 +1,13 @@
 import Naruto from '../../../public/naruto.png'
 import Sasuke from '../../../public/sasuke.jpg'
 import UserView from '../components/home/userView'
-import './home.module.css'
+import Header from '../components/layout/header'
+import styles from './home.css'
 
 export default function HP(){
     return(
         <body id='body'>
+            <Header/>
             <main>
                 <div id="txt_welcome" className="text-3xl text-slate-100 mt-8 m-auto w-max uppercase font-bold">bem vindo</div>
 
