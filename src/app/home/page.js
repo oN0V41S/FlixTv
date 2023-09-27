@@ -2,7 +2,7 @@ import Naruto from '../../../public/naruto.png'
 import Sasuke from '../../../public/sasuke.jpg'
 import UserView from '../components/home/userView'
 import Header from '../components/layout/header'
-import styles from './home.css'
+import '../style.css'
 
 export default function HP(){
     return(

@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Header from '../components/layout/header'
-import styles from './login.module.css'
+import './login.css'
 
 export default function Login(){
     return(
-        <body className={styles.body}>
+        <body>
             <Header/>
             <main className=''>
                 <div id='login' className='mt-3 m-auto w-max p-16 rounded-xl text-white bg-zinc-900'>

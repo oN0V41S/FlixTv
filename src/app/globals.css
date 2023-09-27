@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import './style.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
@@ -17,7 +18,3 @@
   }
 }
 
-*{
-  padding: 0;
-  margin: 0;
-}
