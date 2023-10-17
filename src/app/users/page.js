@@ -1,6 +1,6 @@
 import Naruto from '../../static/naruto.png'
-import Sasuke from '../../../public/sasuke.jpg'
-import UserView from '../components/home/userView'
+import Sasuke from '../../static/sasuke.jpg'
+import UserView from '../components/users/userView'
 import Header from '../components/layout/header'
 import '../style.css'
 

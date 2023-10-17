@@ -1,9 +1,9 @@
 import Header from "../components/layout/header";
 
-//  import Media from "../components/menu/media";
-// import Naruto from '../../../public/naruto.png'
-// import MediaList from "../components/menu/mediaList";
-import Carousel from "../components/menu/carousel";
+import Media from "../components/home/media";
+import MediaList from "../components/home/mediaList";
+import Carousel from "../components/home/carousel";
+import Naruto from '../../static/naruto.png'
 
 export default function menu(){
     return(
@@ -11,7 +11,7 @@ export default function menu(){
             <Header/>
             <main className="gap-12 flex flex-col">
                 <Carousel/>
-                {/* <div id="user_choose" className="text-white ml-10 capitalize font-bold text-xl">
+                <div id="user_choose" className="text-white ml-10 capitalize font-bold text-xl">
                     <div>Continue assistindo</div>
                     <div id="catalogo" className="flex gap-4">
                         <Media name="naruto" />
@@ -23,7 +23,7 @@ export default function menu(){
                    <Media name="Salve Jorge"/>
                    <Media name="Black Mirror"/>
 
-                </MediaList> */}
+                </MediaList>
             </main>
         </body>
     )
