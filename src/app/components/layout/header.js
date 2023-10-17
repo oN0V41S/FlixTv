@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import Logo from '../../../../public/FlixTV-transformed.png'
+import Logo from '../../../static/FlixTV-transformed.png'
 import Link from 'next/link'
 
 export default function Header(){

@@ -1,21 +1,29 @@
-import Naruto from '../../../public/naruto.png'
-import Sasuke from '../../../public/sasuke.jpg'
-import UserView from '../components/home/userView'
-import Header from '../components/layout/header'
-import '../style.css'
+import Header from "../components/layout/header";
 
-export default function HP(){
+//  import Media from "../components/menu/media";
+// import Naruto from '../../../public/naruto.png'
+// import MediaList from "../components/menu/mediaList";
+import Carousel from "../components/menu/carousel";
+
+export default function menu(){
     return(
-        <body id='body'>
+        <body>
             <Header/>
-            <main>
-                <div id="txt_welcome" className="text-3xl text-slate-100 mt-8 m-auto w-max uppercase font-bold">bem vindo</div>
-
-                <div id='user_list' className='flex gap-8 w-max m-auto mt-18'>
-                    <UserView name="Miguel" img={Naruto}/>
-                    <UserView name="Rafael" img={Sasuke}/>
+            <main className="gap-12 flex flex-col">
+                <Carousel/>
+                {/* <div id="user_choose" className="text-white ml-10 capitalize font-bold text-xl">
+                    <div>Continue assistindo</div>
+                    <div id="catalogo" className="flex gap-4">
+                        <Media name="naruto" />
+                        <Media name="Avengers Ultimato parte 2"/>
+                    </div>
                 </div>
 
+                <MediaList category="Comédia">
+                   <Media name="Salve Jorge"/>
+                   <Media name="Black Mirror"/>
+
+                </MediaList> */}
             </main>
         </body>
     )

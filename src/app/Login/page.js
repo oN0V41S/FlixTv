@@ -14,7 +14,7 @@ export default function Login(){
                         <input type='text' placeholder='insira sua Senha' className='bg-slate-600 rounded-md pl-6 pr-6 pt-4 pb-4 w-80 border-none outline-none '/>
                     </div>
                     <div className='mt-10'>
-                        <Link href='/home' >
+                        <Link href='/users' >
                             <input type='submit' className='bg-red-600 w-80 rounded-md pl-6 pr-6 pt-4 pb-4 '/>
                         </Link>
                         <div className='flex mt-4'>
