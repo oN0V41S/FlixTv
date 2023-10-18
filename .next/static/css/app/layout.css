@@ -617,12 +617,6 @@ video {
   width: -moz-max-content;
   width: max-content;
 }
-.w-4 {
-  width: 1rem;
-}
-.w-8 {
-  width: 2rem;
-}
 .flex-col {
   flex-direction: column;
 }

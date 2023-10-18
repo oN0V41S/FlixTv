@@ -1,5 +1,6 @@
 import Header from "../components/layout/header";
 
+import './home.css'
 import Media from "../components/home/media";
 import MediaList from "../components/home/mediaList";
 import Carousel from "../components/home/carousel";
