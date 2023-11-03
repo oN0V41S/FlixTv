@@ -1,0 +1,12 @@
+body{
+    background-image: url('../../static/fundo.avif') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    background-color: rgba(16, 16, 16, 0.9);
+    color: white;
+}
+
+
