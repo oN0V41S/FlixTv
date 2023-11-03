@@ -8,3 +8,16 @@ Link{
     width: 32px;
 }
 
+#media_img{
+    opacity: 0.9;
+}
+
+#media_img:hover, #media_img:focus{
+    transition: opacity 500ms ease-in-out;;
+    opacity: 1;
+}
+
+#media:hover{
+    transition: color 500ms ease-in-out;;
+    color: white;
+}

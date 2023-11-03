@@ -19,10 +19,9 @@ export default function menu(){
                     </div>
                 </div>
 
-                <MediaList category="Comédia">
+                <MediaList>
                    <Media name="Salve Jorge"/>
                    <Media name="Black Mirror"/>
-
                 </MediaList>
             </main>
         </body>
