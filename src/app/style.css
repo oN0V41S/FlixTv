@@ -1,10 +1,18 @@
+@import "./css/home/carrossel.css";
+@import "./css/home/home.css"; 
+@import "./css/home/media.css"; 
+@import "./css/login/login.css"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
   
 body{
-    background-color: rgb(15 23 42);
+    background-color: rgb(15 23 42) !important  ;
     min-height: 100vh;
     background-image: none;
+    font-family: 'Roboto Mono', monospace !important;
 }

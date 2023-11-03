@@ -1,6 +1,5 @@
 'use client'
 
-import './carrossel.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from 'next/image';
