@@ -1,5 +1,5 @@
-.login{
-    background-image: url('../../../static/fundo.avif') !important;
+body{
+    background-image: url('../../../static/fundo.avif') ;
     background-repeat: no-repeat;
     background-size: cover;
 }
