@@ -7,7 +7,7 @@ import Naruto from '../../static/naruto.png'
 
 export default function menu(){
     return(
-        <body>
+        <body className="bodyC">
             <Header/>
             <main className="gap-12 flex flex-col">
                 <Carousel/>

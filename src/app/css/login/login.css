@@ -1,8 +1,4 @@
-body{
-    background-image: url('../../../static/fundo.avif') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 form{
     background-color: rgba(16, 16, 16, 0.9);

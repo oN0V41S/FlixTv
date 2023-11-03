@@ -6,7 +6,7 @@ import '../style.css'
 
 export default function users(){
     return(
-        <body id='body'>
+        <body className="bodyC">
             <Header/>
             <main>
                 <div id="txt_welcome" className="text-3xl text-slate-100 mt-8 m-auto w-max uppercase font-bold">bem vindo</div>
