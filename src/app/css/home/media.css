@@ -1,23 +1,48 @@
-#media_name{
-    margin-top: -60px;
-    width: 90%;
-    
-}
 
 Link{
     width: 32px;
 }
 
-#media_img{
-    opacity: 0.9;
+#media{
+    color: transparent;
+    opacity: 0.89;
 }
 
-#media_img:hover, #media_img:focus{
-    transition: opacity 500ms ease-in-out;;
-    opacity: 1;
+#media:hover, #media:focus{
+    animation: hoverMedia 400ms;
 }
 
-#media:hover{
-    transition: color 500ms ease-in-out;;
-    color: white;
+@keyframes hoverMedia {
+    0%{
+        color: transparent;
+        opacity: 0.95;
+    }
+
+    50%{
+        color: rgba(255, 255, 255,0.5);
+        opacity: 0.97;
+    }
+
+    100%{
+        color: white;
+        opacity: 1;
+    }
+}
+
+#media_name{
+    position: relative;
+    top: -70px;
+    width: 90%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 5px;
+}#media_name::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 100%;
+    background-color: rgba(11, 1, 161, 0.5);
+    border-radius: 5px;
 }

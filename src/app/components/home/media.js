@@ -3,7 +3,7 @@ import Naruto from '../../../static/naruto.png'
 
 export default function Media(props){
     return(
-        <div id='media' className='text-center w-60 m-4 text-transparent '>  
+        <div id='media' className='text-center w-60 m-4  '>  
             <Image
             id='media_img'
             alt=""
