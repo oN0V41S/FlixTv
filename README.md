@@ -1,3 +1,10 @@
 ## FlixTv Project
 
-É um projeto criado em NextJS, usando como base o Design da Netflix.
+## Sobre o Projeto
+Este projeto é um clone do website da Netflix feito em NextJS. O objetivo é recriar a interface do usuário e a funcionalidade do popular serviço de streaming.
+
+## Novas Funcionalidades
+- Adicionar API e consumir Dados.  
+
+## Como Executar
+Para ececutar o projeto execute    npm install     e então     npm run dev.
