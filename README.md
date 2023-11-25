@@ -7,4 +7,5 @@ Este projeto é um clone do website da Netflix feito em NextJS. O objetivo é re
 - Adicionar API e consumir Dados.  
 
 ## Como Executar
-Para ececutar o projeto execute    npm install     e então     npm run dev.
+Para ececutar o projeto execute    "npm install"     e então     "npm run dev".
+
