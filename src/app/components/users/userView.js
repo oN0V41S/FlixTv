@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function UserView(props){
     return(
-        <div id="user" className=' hover:animate-pulse w-max mt-10 '>
+        <div id="user" className=' w-max mt-10 '>
             <Link href="/home" >
                 <Image
                 id='user_img'

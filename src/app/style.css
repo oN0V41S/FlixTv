@@ -2,6 +2,7 @@
 @import "./css/home/home.css"; 
 @import "./css/home/media.css"; 
 @import "./css/login/login.css"; 
+@import "./css/users/users.css";
 
 *{
     padding: 0;
