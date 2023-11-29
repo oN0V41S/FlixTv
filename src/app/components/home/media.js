@@ -8,6 +8,7 @@ export default function Media(props) {
       <h1 id="media_name" className="m-auto">
         {props.name}
       </h1>
+      <MoviesList/>
     </div>
   );
 }
