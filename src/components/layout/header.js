@@ -11,6 +11,7 @@ export default function Header(){
                     src={Logo}
                     className='w-max m-auto'
                     width={120}
+                    alt='Logo'
                 />
             </Link>
         </header>
