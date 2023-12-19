@@ -42,6 +42,10 @@ export default function MdCaroussel() {
                     <h1>ex2</h1>
                     <Image src={Sasuke} alt="ex2" />
                 </div>
+                <div className="w-14">
+                    <h1>ex2</h1>
+                    <Image src={Sasuke} alt="ex2" />
+                </div>
             </Slider>
         </section >
     );
