@@ -4,10 +4,12 @@ import Header from '@/components/layout/header';
 function MyApp({ Component, pageProps }) {
   // Fornece a propriedade `pageProps` para seus componentes
   return (
-  <>
-  <Header/>
-  <Component {...pageProps} />
-  </>
+    <>
+      <Header />
+      <main className='p-6'>
+        <Component {...pageProps} />
+      </main>
+    </>
   );
 }
 
