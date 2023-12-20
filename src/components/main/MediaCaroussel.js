@@ -16,7 +16,7 @@ export default function MdCaroussel({ categoria }) {
     infinite: true,
     speed: 500,
     slidesToShow: 4.01,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
   };
 
   return (
@@ -36,10 +36,8 @@ export default function MdCaroussel({ categoria }) {
 function Media({ name, src }) {
   return (
     <div id="media" className="text-center w-60 m-4  ">
-      <Image id="media_img" alt="" src={src} className="rounded-xl w-full" />
-      <h1 id="media_name" className="m-auto">
-        {name}
-      </h1>
+      <Image alt="" src={src} className="rounded-xl w-24 lg:w-full" />
+      <h1 className="m-auto">{name}</h1>
     </div>
   );
 }
