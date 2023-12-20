@@ -1,4 +1,12 @@
-.slick-track{
+.slick-track {
     display: flex;
     gap: 2vh;
+}
+
+.slick-prev{
+    display: none;
+}
+
+.slick-arrow{
+    display: none;
 }

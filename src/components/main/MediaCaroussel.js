@@ -2,8 +2,9 @@ import Image from "next/image"
 
 // Carrosel 
 import Slider from "react-slick"
-// import '@/styles/MediaCarrousel/mdcarousel.css'
+import '@/styles/MediaCarrousel/mdcarousel.css'
 import 'slick-carousel/slick/slick.css';
+import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'
 
 import Sasuke from '@/../public/media/sasuke.jpg'
 
@@ -13,9 +14,8 @@ export default function MdCaroussel() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        
+        slidesToShow: 5.1,
+        slidesToScroll: 2,
     }
 
     return (
