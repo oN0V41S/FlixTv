@@ -6,14 +6,16 @@ import "@/styles/MediaCarrousel/mdcarousel.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Naruto from "@/../../public/media/naruto.png";
 import Sasuke from "@/../public/media/sasuke.jpg";
 
 export default function MdCaroussel({ categoria }) {
   const settings = {
+    className: "center",
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4.01,
     slidesToScroll: 1,
   };
 
@@ -21,27 +23,23 @@ export default function MdCaroussel({ categoria }) {
     <section>
       <h2 className="text-xl font-bold">{categoria}</h2>
       <Slider {...settings}>
-        <div className="flex flex-col items-center">
-          <h1 className="text-center -mt-12">ex1</h1>
-          <Image src={Sasuke} alt="ex1" className="rounded-xl w-60" />
-        </div>
-        <div className="flex flex-col items-center">
-          <h1 className="text-center -mt-12">ex1</h1>
-          <Image src={Sasuke} alt="ex1" className="rounded-xl w-60" />
-        </div>
-        <div className="flex flex-col items-center">
-          <h1 className="text-center -mt-12">ex1</h1>
-          <Image src={Sasuke} alt="ex1" className="rounded-xl w-60" />
-        </div>
-        <div className="flex flex-col items-center">
-          <h1 className="text-center -mt-12">ex1</h1>
-          <Image src={Sasuke} alt="ex1" className="rounded-xl w-60" />
-        </div>
-        <div className="flex flex-col items-center">
-          <h1 className="text-center -mt-12">ex1</h1>
-          <Image src={Sasuke} alt="ex1" className="rounded-xl w-60" />
-        </div>
+        <Media name="ex1" src={Naruto} />
+        <Media name="ex2" src={Sasuke} />
+        <Media name="ex3" src={Naruto} />
+        <Media name="ex4" src={Sasuke} />
+        <Media name="ex5" src={Naruto} />
       </Slider>
     </section>
+  );
+}
+
+function Media({ name, src }) {
+  return (
+    <div id="media" className="text-center w-60 m-4  ">
+      <Image id="media_img" alt="" src={src} className="rounded-xl w-full" />
+      <h1 id="media_name" className="m-auto">
+        {name}
+      </h1>
+    </div>
   );
 }
