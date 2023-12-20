@@ -5,7 +5,11 @@ import MediaList from "@/components/main/mediaList.js";
 export default function main() {
   return (
     <main className="gap-12 flex flex-col">
-      <MdCaroussel />
+      <MdCaroussel categoria="Continue assistindo" />
+      <MdCaroussel categoria="Comédia" />
+      <MdCaroussel categoria="Ação" />
+      <MdCaroussel categoria="Aventura" />
+      <MdCaroussel categoria="Séries" />
     </main>
   );
 }
