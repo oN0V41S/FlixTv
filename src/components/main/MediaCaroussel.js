@@ -27,6 +27,7 @@ export default function MdCaroussel({ categoria }) {
         <Media name="ex3" src={Naruto} />
         <Media name="ex4" src={Sasuke} />
         <Media name="ex5" src={Naruto} />
+        <Media name="ex6" src={Sasuke} />
       </Slider>
     </section>
   );
