@@ -1,5 +1,26 @@
-import LoginForm from '@/components/login/login.js'
+import Link from "next/link";
+import "@/app/globals.css";
+import InputForm from "@/components/form/input";
+import SubmitForm from "@/components/form/submit";
 
-export default function Login(){
-    return(<LoginForm/>)
+export default function Login() {
+  return (
+    <form className="mt-3 m-auto w-12/12 lg:w-max p-16 rounded-xl text-white bg-slate-900">
+      <div className="flex flex-col gap-6">
+        <div className="font-bold text-xl text-left	">Faça Login</div>
+        <InputForm type="text" placeholder="insira seu Usuário" />
+        <InputForm type="password" placeholder="insira sua Senha" />
+      </div>
+      <div className="mt-10">
+        <SubmitForm href="/users" width="full" />
+        <div className="flex mt-4">
+          <div className="w-2/4 flex gap-2">
+            <input type="checkbox" />
+            <div>Me lembre</div>
+          </div>
+          <div className="w-2/4 text-right">Precisa de Ajuda?</div>
+        </div>
+      </div>
+    </form>
+  );
 }

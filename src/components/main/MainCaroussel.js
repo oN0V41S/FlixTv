@@ -11,8 +11,7 @@ import Painbg from "@/../../public/media-bg/pain-bg.jpg";
 
 export default function MainCaroussel() {
   const settings = {
-    className: "center",
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -32,7 +31,12 @@ export default function MainCaroussel() {
 function MainMedia({ src }) {
   return (
     <div id="media" className="text-center w-full h-full m-4  ">
-      <Image id="media_img" alt="" src={src} className="rounded-xl w-full" />
+      <Image
+        id="media_img"
+        alt=""
+        src={src}
+        className="rounded-xl w-full h-full"
+      />
     </div>
   );
 }
