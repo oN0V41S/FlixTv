@@ -21,7 +21,9 @@ export default function MainCaroussel() {
   return (
     <section className="w-full">
       <Slider {...settings}>
-        <MainMedia src={Narutobg} />
+        <MainMedia src={Painbg} />
+        <MainMedia src={Painbg} />
+        <MainMedia src={Painbg} />
         <MainMedia src={Painbg} />
       </Slider>
     </section>

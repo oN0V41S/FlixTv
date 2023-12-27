@@ -36,7 +36,11 @@ export default function MdCaroussel({ categoria }) {
 function Media({ name, src }) {
   return (
     <div id="media" className="text-center w-60 m-4  ">
-      <Image alt="" src={src} className="rounded-xl w-16 md:w-24 lg:w-full" />
+      <Image
+        alt=""
+        src={src}
+        className="rounded-xl h-20 md:h-auto w-3/12 md:w-24 lg:w-full"
+      />
       <h1 className="m-auto">{name}</h1>
     </div>
   );
