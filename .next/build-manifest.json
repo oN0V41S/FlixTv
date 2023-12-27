@@ -10,7 +10,10 @@
     "static/development/_buildManifest.js",
     "static/development/_ssgManifest.js"
   ],
-  "rootMainFiles": [],
+  "rootMainFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/main-app.js"
+  ],
   "pages": {
     "/": [
       "static/chunks/webpack.js",
@@ -32,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/main.js"
     ],
-    "/users": [
+    "/register": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/users.js"
+      "static/chunks/pages/register.js"
     ]
   },
   "ampFirstPages": []
