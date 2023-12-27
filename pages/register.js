@@ -10,6 +10,9 @@ export default function Register() {
       <InputForm type="email" placeholder="Seu Email" />
       <InputForm type="password" placeholder="Sua Senha" />
       <SubmitForm href="/login" width="full" placeholder="Registrar" />
+      <Link href="/login" className="w-[50%]">
+        já Possui conta?
+      </Link>
     </form>
   );
 }

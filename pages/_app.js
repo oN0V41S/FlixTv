@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <main className="p-8">
+      <main className="p-12">
         <Component {...pageProps} />
       </main>
     </>

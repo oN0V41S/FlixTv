@@ -17,9 +17,12 @@ export default function Login() {
             Me lembre
           </h3>
         </div>
-        <h1 className="w-[50%] text-center md:text-rigth lg:text-right">
-          Precisa de Ajuda?
-        </h1>
+        <Link
+          href="/register"
+          className="w-[50%] text-center md:text-rigth lg:text-right"
+        >
+          Não Possui conta?
+        </Link>
       </div>
     </form>
   );
