@@ -1,12 +1,16 @@
 let users = [];
 
 export function cadastro(body) {
-  const user = users.find(({ email }) => email === body.email);
-  if (user) throw new Error("Usuário ja existe");
+  const existingUser = users.find(({ email }) => email === body.email);
+  
+  if (existingUser) {
+    throw new Error("Usuário já existe");
+  }
 
-  user.push(body);
+  users.push(body);
   return body;
 }
+
 
 export function login(body) {
   const user = users.find(({ email }) => email === body.email);
