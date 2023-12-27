@@ -29,10 +29,11 @@ export default function Register() {
         body: JSON.stringify(formData)
       })
 
-      const json = await response.json()
-      if(response.status !== 201){
+      const [erro, setErro] = useState
 
-      }
+      const json = await response.json()
+      if(response.status !== 201) throw new Error(json)
+
     } catch (err){
 
     }
