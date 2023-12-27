@@ -9,7 +9,7 @@ export default function Register() {
       <InputForm type="text" placeholder="Seu primeiro e ultimo Nome" />
       <InputForm type="email" placeholder="Seu Email" />
       <InputForm type="password" placeholder="Sua Senha" />
-      <SubmitForm href="/users" width="full" placeholder="Registrar" />
+      <SubmitForm href="/login" width="full" placeholder="Registrar" />
     </form>
   );
 }
