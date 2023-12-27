@@ -24,10 +24,21 @@ export default function Register() {
   } 
 
   // Validar Form foi enviado
-  const handleForm = (event) => {
-    event.peventDefault()
-    console.log(formData)
+  const handleForm = async (event) => {
+    try{
+      event.peventDefault()
+      const response = await fetch('/api/user/cadastro', {
+        method: 'POST',
+        body: JSON.stringify(formData)
+      })
+
+      const json = await response.json()
+      console.log(rsponse.status)
+      console.log(json)
+    } catch (err){}
   }
+
+
 
 
   return (
@@ -36,7 +47,7 @@ export default function Register() {
       <InputForm type="text" placeholder="Seu primeiro e ultimo Nome" required value={formData.name}/>
       <InputForm type="email" placeholder="Seu Email" required value={formData.email}/>
       <InputForm type="password" placeholder="Sua Senha" required value={formData.password}/>
-      <SubmitForm width="full" placeholder="Registrar" />
+      <SubmitForm width="full" placeholder="Registrar-se" />
       <Link href="/login" className="w-[50%]">
         já Possui conta?
       </Link>

@@ -9,7 +9,7 @@ export default function Login() {
       <div className="font-bold text-xl text-left	">Faça Login</div>
       <InputForm type="text" placeholder="insira seu Usuário" required/>
       <InputForm type="password" placeholder="insira sua Senha" required/>
-      <SubmitForm href="/users" width="full" />
+      <SubmitForm href="/users" width="full" placeholder="Faça Login" />
       <div className="flex justify-between">
         <div className="w-[50%] flex gap-2">
           <input type="checkbox" />
