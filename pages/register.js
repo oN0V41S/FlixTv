@@ -7,7 +7,7 @@ import Link from "next/link";
 import InputForm from "@/components/form/input";
 import SubmitForm from "@/components/form/submit";
 
-const endpoint = "/api/user/cadastro";
+const endpoint = '/api/user/cadastro';
 
 export default function Register() {
   const [form, setForm] = useState({
@@ -41,9 +41,9 @@ export default function Register() {
 
       const json = await response.json()
 
-      if (!response.ok) throw new Error(json.message, 'Erro desconhecido')
+      if (response.status !== 201) throw new Error(json)
       setCookie('authorization', json)
-      router.push('/')
+    router.push('/users')
     } catch (err) {
       setError(err.message)
     }
@@ -59,25 +59,27 @@ export default function Register() {
         type="text"
         placeholder="Seu primeiro e ultimo Nome"
         required
-        onChange={(event) => handleChangeForm(event, "name")}
+        onChange={(event) => handleChangeForm(event, 'name')}
         value={form.name}
       />
       <InputForm
         type="email"
         placeholder="Seu Email"
         required
-        onChange={(event) => handleChangeForm(event, "email")}
+        onChange={(event) => handleChangeForm(event, 'email')}
         value={form.email}
       />
       <InputForm
         type="password"
         placeholder="Sua Senha"
         required
-        onChange={(event) => handleChangeForm(event, "password")}
+        onChange={(event) => handleChangeForm(event, 'password')}
         value={form.password}
       />
       <SubmitForm width="full" onClick={handleForm} placeholder="Registrar-se" />
-      {error && <p className="error">{error}</p>}
+      {error && <p id="error" className='font-bold bg-red-800 w-max p-2 pr-4 rounded-md animate-pulse m-auto'>
+        {error}</p>}
+
       <Link href="/login" className="w-[50%]">
         já Possui conta?
       </Link>

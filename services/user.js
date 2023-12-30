@@ -4,14 +4,14 @@ let users = []
 const SECRET = process.env.JWT_SECRET
 
 function generateToken(user) {
-  return jwt.sign({ name: user.name, email: user.email }, SECRET)
+  return jwt.sign({ email: user.email , name: user.name,  }, SECRET)
 }
 
 function readToken(token) {
   try {
     return jwt.verify(token, SECRET)
   } catch (err) {
-    throw new ('token_invalido')
+    throw new ('Token invalido')
   }
 }
 
@@ -25,7 +25,7 @@ export function cadastro(body) {
 
   // Gera token do usuário
   const token = generateToken(body)
-  
+
   // retorna o token do usuário 
   return "Usuário cadastrado token do usuário: " + token
 }

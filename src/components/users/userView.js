@@ -19,7 +19,7 @@ function UserView(props) {
       <Image
         id="user_img"
         src={props.img}
-        alt={props.alt}
+        alt='user'
         className="rounded-xl w-full"
       />
       <div
