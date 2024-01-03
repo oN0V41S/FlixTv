@@ -9,3 +9,5 @@ Este projeto é um clone do website da Netflix feito em NextJS. O objetivo é re
 ## Como Executar
 Para ececutar o projeto execute    "npm install"     e então     "npm run dev".
 
+## Hospedagem
+ - Acompanhe o desenvolvimento em (https://flixtv-project.netlify.app/)[Flixtv-Project]
