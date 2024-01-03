@@ -43,7 +43,7 @@ export default function Register() {
 
       if (response.status !== 201) throw new Error(json)
       setCookie('authorization', json)
-    router.push('/users')
+      router.push('/users')
     } catch (err) {
       setError(err.message)
     }
